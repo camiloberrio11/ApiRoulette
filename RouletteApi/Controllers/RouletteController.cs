@@ -19,19 +19,19 @@ namespace RouletteApi.Controllers
         }
         [Route("addroulette")]
         [HttpPost]
-        public IActionResult saveRouletteController()
+        public IActionResult SaveRouletteController()
         {
             return Ok(new string[] {  "saludo", "Hola" });
         }
         [Route("closeroulette/{idroulette}")]
         [HttpPut]
-        public IActionResult closeRouletteController(int idroulette)
+        public IActionResult CloseRouletteController(int idroulette)
         {
             return Ok(new string[] { "saludo", "Hola" });
         }
         [Route("openroulette/{idroulette}")]
         [HttpPut]
-        public IActionResult openRouletteController(int idroulette)
+        public IActionResult OpenRouletteController(int idroulette)
         {
             return Ok(new string[] { "saludo", "Hola" });
         }

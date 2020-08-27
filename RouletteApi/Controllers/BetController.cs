@@ -13,7 +13,7 @@ namespace RouletteApi.Controllers
     {
         [Route("bets/{idroulette}")]
         [HttpGet]
-        public IActionResult getBetsByRouletteController(int idroulette)
+        public IActionResult GetBetsByRouletteController(int idroulette)
         {
             return Ok(idroulette);
         }
